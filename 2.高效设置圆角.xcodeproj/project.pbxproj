@@ -16,6 +16,8 @@
 		C1474E5424B874290032444E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1474E5324B874290032444E /* main.m */; };
 		C1474E5E24B874290032444E /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1474E5D24B874290032444E /* ________Tests.m */; };
 		C1474E6924B874290032444E /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1474E6824B874290032444E /* ________UITests.m */; };
+		C1474E7724B874E40032444E /* 15519768.png in Resources */ = {isa = PBXBuildFile; fileRef = C1474E7624B874E40032444E /* 15519768.png */; };
+		C1474E7A24B879350032444E /* UIView+LSCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = C1474E7924B879350032444E /* UIView+LSCornerRadius.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		C1474E6424B874290032444E /* 2.高效设置圆角UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2.高效设置圆角UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1474E6824B874290032444E /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		C1474E6A24B874290032444E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1474E7624B874E40032444E /* 15519768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15519768.png; sourceTree = "<group>"; };
+		C1474E7824B879350032444E /* UIView+LSCornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LSCornerRadius.h"; sourceTree = "<group>"; };
+		C1474E7924B879350032444E /* UIView+LSCornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LSCornerRadius.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +109,15 @@
 		C1474E4024B874270032444E /* 2.高效设置圆角 */ = {
 			isa = PBXGroup;
 			children = (
+				C1474E7624B874E40032444E /* 15519768.png */,
 				C1474E4124B874270032444E /* AppDelegate.h */,
 				C1474E4224B874270032444E /* AppDelegate.m */,
 				C1474E4424B874270032444E /* SceneDelegate.h */,
 				C1474E4524B874270032444E /* SceneDelegate.m */,
 				C1474E4724B874270032444E /* ViewController.h */,
 				C1474E4824B874270032444E /* ViewController.m */,
+				C1474E7824B879350032444E /* UIView+LSCornerRadius.h */,
+				C1474E7924B879350032444E /* UIView+LSCornerRadius.m */,
 				C1474E4A24B874270032444E /* Main.storyboard */,
 				C1474E4D24B874290032444E /* Assets.xcassets */,
 				C1474E4F24B874290032444E /* LaunchScreen.storyboard */,
@@ -241,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1474E5124B874290032444E /* LaunchScreen.storyboard in Resources */,
+				C1474E7724B874E40032444E /* 15519768.png in Resources */,
 				C1474E4E24B874290032444E /* Assets.xcassets in Resources */,
 				C1474E4C24B874270032444E /* Main.storyboard in Resources */,
 			);
@@ -267,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1474E7A24B879350032444E /* UIView+LSCornerRadius.m in Sources */,
 				C1474E4924B874270032444E /* ViewController.m in Sources */,
 				C1474E4324B874270032444E /* AppDelegate.m in Sources */,
 				C1474E5424B874290032444E /* main.m in Sources */,
