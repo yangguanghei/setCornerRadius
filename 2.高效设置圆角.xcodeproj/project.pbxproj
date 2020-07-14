@@ -18,6 +18,7 @@
 		C1474E6924B874290032444E /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1474E6824B874290032444E /* ________UITests.m */; };
 		C1474E7724B874E40032444E /* 15519768.png in Resources */ = {isa = PBXBuildFile; fileRef = C1474E7624B874E40032444E /* 15519768.png */; };
 		C1474E7A24B879350032444E /* UIView+LSCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = C1474E7924B879350032444E /* UIView+LSCornerRadius.m */; };
+		C187FA5F24BD683A00599E9A /* UIImageView+LSUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C187FA5E24BD683A00599E9A /* UIImageView+LSUIImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		C1474E7624B874E40032444E /* 15519768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15519768.png; sourceTree = "<group>"; };
 		C1474E7824B879350032444E /* UIView+LSCornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LSCornerRadius.h"; sourceTree = "<group>"; };
 		C1474E7924B879350032444E /* UIView+LSCornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LSCornerRadius.m"; sourceTree = "<group>"; };
+		C187FA5D24BD683A00599E9A /* UIImageView+LSUIImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LSUIImageView.h"; sourceTree = "<group>"; };
+		C187FA5E24BD683A00599E9A /* UIImageView+LSUIImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LSUIImageView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				C1474E4824B874270032444E /* ViewController.m */,
 				C1474E7824B879350032444E /* UIView+LSCornerRadius.h */,
 				C1474E7924B879350032444E /* UIView+LSCornerRadius.m */,
+				C187FA5D24BD683A00599E9A /* UIImageView+LSUIImageView.h */,
+				C187FA5E24BD683A00599E9A /* UIImageView+LSUIImageView.m */,
 				C1474E4A24B874270032444E /* Main.storyboard */,
 				C1474E4D24B874290032444E /* Assets.xcassets */,
 				C1474E4F24B874290032444E /* LaunchScreen.storyboard */,
@@ -280,6 +285,7 @@
 				C1474E4924B874270032444E /* ViewController.m in Sources */,
 				C1474E4324B874270032444E /* AppDelegate.m in Sources */,
 				C1474E5424B874290032444E /* main.m in Sources */,
+				C187FA5F24BD683A00599E9A /* UIImageView+LSUIImageView.m in Sources */,
 				C1474E4624B874270032444E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,7 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 58GP5T8P44;
+				DEVELOPMENT_TEAM = N4686HA3AU;
 				INFOPLIST_FILE = "2.高效设置圆角/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,7 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 58GP5T8P44;
+				DEVELOPMENT_TEAM = N4686HA3AU;
 				INFOPLIST_FILE = "2.高效设置圆角/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
