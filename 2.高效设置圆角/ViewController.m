@@ -23,6 +23,7 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
+    // 普通UIView
     UIView * redView = [UIView new];
     [self.view addSubview:redView];
     redView.backgroundColor = [UIColor redColor];
@@ -32,6 +33,7 @@
     redView.layer.borderColor = [UIColor greenColor].CGColor;
     redView.layer.borderWidth = 4;
     
+    // UIImageView
     UIImageView * imageV = [UIImageView new];
     [self.view addSubview:imageV];
     imageV.backgroundColor = [UIColor blackColor];
@@ -52,6 +54,7 @@
     imageV2.image = [UIImage imageNamed:@"15519768"];
     [self.view addSubview:[imageV2 ls_getViewWithCornerRadius:20]];
     
+    // UIButton
     UIButton * btn = [UIButton buttonWithType:UIButtonTypeSystem];
     btn.frame = CGRectMake(200, 100, 100, 100);
     [btn setBackgroundImage:[UIImage imageNamed:@"15519768"] forState:UIControlStateNormal];
